@@ -19,7 +19,7 @@ class MCPClient:
         # Initialize session and client objects
         self.session: Optional[ClientSession] = None
         self.exit_stack = AsyncExitStack()
-        self.api_key = "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"
+     
         if not self.api_key:
             print("ERROR: OPENROUTER_API_KEY not found in environment variables")
             print("Please create a .env file with your API key")
